@@ -1,0 +1,29 @@
+@media (max-width: 1145px) {
+    .header__btn {
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 712px) {
+    .header__btn {
+        display: none;
+    }
+}
+
+@media (max-width: 640px) {
+    .menu {
+        padding: 0 20px !important;
+        margin: 0;
+    }
+    .menu__list-item {
+        padding: 0 20px !important;
+        margin: 0;
+    }
+}
+
+@media (max-width: 530px) {
+    .header img[alt="Логотип"] {
+        margin-left: 10px;
+        order: -1;
+    }
+}
