@@ -1,0 +1,35 @@
+html, *,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    user-select: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+input:focus {
+    outline: none;
+}

@@ -1,0 +1,232 @@
+@import 'libs';
+
+body {
+    font-family: 'Gilroy';
+    font-weight: normal;
+    user-select: none;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.header {
+    z-index: 1;
+    background-color: #fff;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    font-weight: bold;
+    font-size: 18px;
+    color: $text-color;
+    &__nav {
+        &-list {
+            display: flex;
+            justify-content: space-between;
+            &-item {
+                margin: 33px 0;
+                &-link {
+                    color: inherit;
+                    &:hover {
+                        color: $title-color;
+                    }
+                }
+                &-link--active {
+                    color: $title-color;
+                }
+            }
+        }
+    }
+    &__line {
+        width: 100%;
+        height: 1px;
+        background-color: $text-color;
+    }
+}
+
+.main {
+    &__home {
+        margin-top: 124px;
+    }
+    &__about {
+        margin-top: 100px;
+        padding: 120px 0;
+        text-align: center;
+        background-color: $bgc-color;
+    }
+    &__skills {
+        padding: 90px 0 100px;
+        text-align: center;
+    }
+    &__portfolio {
+        padding-top: 112px;
+        text-align: center;
+        background-color: $bgc-color;
+    }
+    &__contacts {
+        padding: 114px 0 120px;
+        text-align: center;
+    }
+}
+
+.home {
+    &__text {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &-name {
+            font-size: 48px;
+            font-weight: bold;
+            color: $title-color;
+        }
+        &-job {
+            font-size: 18px;
+            font-weight: 500;
+            color: $title-color;
+            margin-top: 8px;
+        }
+        &-translate {
+            font-size: 16px;
+            font-weight: bold;
+            transform: rotate(180deg);
+            writing-mode: vertical-lr; 
+            cursor: default;
+            span {
+                color: $text-color;
+            }
+            .site-language {
+                color: $text-color;
+                cursor: pointer;
+                &:hover {
+                    color: $title-color;
+                }
+            }
+            .site-language--active {
+                color: $title-color;
+            }
+        }
+    }
+    &__img {
+        margin-top: 45px;
+        &-author {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+.about {
+    &__title {
+        font-size: 34px;
+        font-weight: bold;
+        color: $title-color;
+        margin-bottom: 20px;
+    }
+    &__text {
+        font-size: 18px;
+        font-weight: 500;
+        color: $title-color;
+        margin-bottom: 50px;
+    }
+    &__text:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.skills {
+    &__title {
+        font-size: 34px;
+        font-weight: bold;
+        color: $title-color;
+    }
+    &__text {
+        font-size: 18px;
+        font-weight: 500;
+        color: $title-color;
+        margin-top: 69px;
+        margin-bottom: 83px;
+    }
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &-item {
+            &-title {
+                font-size: 14px;
+                font-weight: bold;
+                color: $text-color;
+                margin-top: 23px;
+                margin-bottom: 20px;
+            }
+            &-stars {
+                font-size: 28px;
+                color: $text-color;
+                .star--active {
+                    color: $title-color;
+                }
+            }
+        }
+    }
+}
+
+.portfolio {
+    &__title {
+        font-size: 34px;
+        font-weight: bold;
+        color: $title-color;
+        margin-bottom: 60px;
+    }
+    &__item {
+        &-link {
+            font-size: 18px;
+            font-weight: 500;
+            color: $title-color;
+            text-decoration: underline;
+            display: inline-block;
+            margin-top: 45px;
+            margin-bottom: 100px;
+            &:hover {
+                transform: scale(1.03);
+            }
+        }
+    }
+}
+
+.contacts {
+    &__title {
+        font-size: 34px;
+        font-weight: bold;
+        color: $title-color;
+        margin-bottom: 20px;
+    }
+    &__text {
+        font-size: 18px;
+        font-weight: 500;
+        color: $title-color;
+        margin-bottom: 30px;
+    }
+    &__btn {
+        font-size: 18px;
+        font-weight: 500;
+        color: #FFFFFF;
+        padding: 13px 29px;
+        margin-bottom: 85px;
+        background-color: $title-color;
+        border-radius: 50px;
+    }
+    &__social {
+        &-img {
+            margin: 0 30px 45px 30px;
+        }
+        &-img:hover {
+            transform: scale(0.92);
+        }
+    }
+    &__copyright {
+        font-size: 14px;
+        font-weight: 500;
+        color: $text-color;
+    }
+}

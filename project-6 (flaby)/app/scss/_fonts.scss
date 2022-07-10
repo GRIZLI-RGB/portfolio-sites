@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+// @font-face {
+//     font-family: 'Museo Slab';
+//     src: url('MuseoSlab-900Italic.eot');
+//     src: local('Museo Slab 900 Italic'), local('MuseoSlab-900Italic'),
+//         url('MuseoSlab-900Italic.eot?#iefix') format('embedded-opentype'),
+//         url('MuseoSlab-900Italic.woff2') format('woff2'),
+//         url('MuseoSlab-900Italic.woff') format('woff'),
+//         url('MuseoSlab-900Italic.ttf') format('truetype');
+//     font-weight: normal;
+//     font-style: italic;
+// }
+
+// @font-face {
+//     font-family: 'Museo Slab';
+//     src: url('MuseoSlab-1000Italic.eot');
+//     src: local('Museo Slab 1000 Italic'), local('MuseoSlab-1000Italic'),
+//         url('MuseoSlab-1000Italic.eot?#iefix') format('embedded-opentype'),
+//         url('MuseoSlab-1000Italic.woff2') format('woff2'),
+//         url('MuseoSlab-1000Italic.woff') format('woff'),
+//         url('MuseoSlab-1000Italic.ttf') format('truetype');
+//     font-weight: normal;
+//     font-style: italic;
+// }
+
+// @font-face {
+//     font-family: 'Museo Slab';
+//     src: url('MuseoSlab-300.eot');
+//     src: local('Museo Slab 300'), local('MuseoSlab-300'),
+//         url('MuseoSlab-300.eot?#iefix') format('embedded-opentype'),
+//         url('MuseoSlab-300.woff2') format('woff2'),
+//         url('MuseoSlab-300.woff') format('woff'),
+//         url('MuseoSlab-300.ttf') format('truetype');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: 'Museo Slab';
+//     src: url('MuseoSlab-1000.eot');
+//     src: local('Museo Slab 1000'), local('MuseoSlab-1000'),
+//         url('MuseoSlab-1000.eot?#iefix') format('embedded-opentype'),
+//         url('MuseoSlab-1000.woff2') format('woff2'),
+//         url('MuseoSlab-1000.woff') format('woff'),
+//         url('MuseoSlab-1000.ttf') format('truetype');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: 'Museo Slab';
+//     src: url('MuseoSlab-700Italic.eot');
+//     src: local('Museo Slab 700 Italic'), local('MuseoSlab-700Italic'),
+//         url('MuseoSlab-700Italic.eot?#iefix') format('embedded-opentype'),
+//         url('MuseoSlab-700Italic.woff2') format('woff2'),
+//         url('MuseoSlab-700Italic.woff') format('woff'),
+//         url('MuseoSlab-700Italic.ttf') format('truetype');
+//     font-weight: normal;
+//     font-style: italic;
+// }
+
+// @font-face {
+//     font-family: 'Museo Slab';
+//     src: url('MuseoSlab-900.eot');
+//     src: local('Museo Slab 900'), local('MuseoSlab-900'),
+//         url('MuseoSlab-900.eot?#iefix') format('embedded-opentype'),
+//         url('MuseoSlab-900.woff2') format('woff2'),
+//         url('MuseoSlab-900.woff') format('woff'),
+//         url('MuseoSlab-900.ttf') format('truetype');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+@font-face {
+    font-family: 'Museo Slab';
+    src: url('../fonts/MuseoSlab-500.eot');
+    src: local('Museo Slab 500'), local('MuseoSlab-500'),
+        url('../fonts/MuseoSlab-500.woff2') format('woff2'),
+        url('../fonts/MuseoSlab-500.woff') format('woff'),
+        url('../fonts/MuseoSlab-500.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+// @font-face {
+//     font-family: 'Museo Slab';
+//     src: url('MuseoSlab-700.eot');
+//     src: local('Museo Slab 700'), local('MuseoSlab-700'),
+//         url('MuseoSlab-700.eot?#iefix') format('embedded-opentype'),
+//         url('MuseoSlab-700.woff2') format('woff2'),
+//         url('MuseoSlab-700.woff') format('woff'),
+//         url('MuseoSlab-700.ttf') format('truetype');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: 'Museo Slab';
+//     src: url('MuseoSlab-500Italic.eot');
+//     src: local('Museo Slab 500 Italic'), local('MuseoSlab-500Italic'),
+//         url('MuseoSlab-500Italic.eot?#iefix') format('embedded-opentype'),
+//         url('MuseoSlab-500Italic.woff2') format('woff2'),
+//         url('MuseoSlab-500Italic.woff') format('woff'),
+//         url('MuseoSlab-500Italic.ttf') format('truetype');
+//     font-weight: normal;
+//     font-style: italic;
+// }
+
+// @font-face {
+//     font-family: 'Museo Slab';
+//     src: url('MuseoSlab-300Italic.eot');
+//     src: local('Museo Slab 300 Italic'), local('MuseoSlab-300Italic'),
+//         url('MuseoSlab-300Italic.eot?#iefix') format('embedded-opentype'),
+//         url('MuseoSlab-300Italic.woff2') format('woff2'),
+//         url('MuseoSlab-300Italic.woff') format('woff'),
+//         url('MuseoSlab-300Italic.ttf') format('truetype');
+//     font-weight: normal;
+//     font-style: italic;
+// }
+
+// @font-face {
+//     font-family: 'Museo Slab';
+//     src: url('MuseoSlab-100.eot');
+//     src: local('Museo Slab 100'), local('MuseoSlab-100'),
+//         url('MuseoSlab-100.eot?#iefix') format('embedded-opentype'),
+//         url('MuseoSlab-100.woff2') format('woff2'),
+//         url('MuseoSlab-100.woff') format('woff'),
+//         url('MuseoSlab-100.ttf') format('truetype');
+//     font-weight: normal;
+//     font-style: normal;
+// }

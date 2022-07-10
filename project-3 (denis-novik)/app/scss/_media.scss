@@ -1,0 +1,41 @@
+@media (max-width: 1000px) {
+    .container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .portfolio__item {
+        &-img {
+            width: 90%;
+            height: 90%;
+        }
+        background-size: cover;
+    }
+}
+
+@media (max-width: 740px) {
+    .skills__items-item-stars span {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 640px) {
+    .main__skills {
+        padding-bottom: 50px !important;
+    }
+    .skills__items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+    .skills__items-item {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 60px;
+    }
+}
+
+@media (max-width: 585px) {
+    .home__text-name {
+        font-size: 34px !important;
+    }
+}
